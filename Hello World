@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package javaapplication1;
-
+import java.util.Scanner;
 /**
  *
  * @author admin
@@ -15,7 +15,9 @@ public class JavaApplication1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello World, I am Nguyen Quoc Cuong");
+        Scanner sc = new Scanner(System.in);
+        String name = sc.Next();
+        System.out.println("Hello World, I am " + name);
     }
     
 }
